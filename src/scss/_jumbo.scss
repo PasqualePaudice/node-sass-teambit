@@ -1,0 +1,38 @@
+.jumbo{
+    height: calc(100vh - 76px);
+    width: $width_containers;
+    margin: 0 auto;
+        padding-top:80px;
+}
+
+.s-jumbo{
+    height: 100%;
+    float: left;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 50px ;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    h5{
+        font-size: 18px;
+        line-height: 2;
+        font-weight: 300;
+    }
+
+
+}
+
+.d-jumbo{
+    height: 100%;
+    float: left;
+
+
+
+}
