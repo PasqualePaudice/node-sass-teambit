@@ -1,0 +1,64 @@
+.traditional{
+    width: 100%;
+    background: #ffe7d2;
+
+
+    .trad-cont{
+        width: $width_containers;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        border-bottom: 0.5px solid black;
+        .title{
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+    }
+
+
+}
+
+.sez-trad{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+    .trad1{
+        float: left;
+        left: 0;
+        top:0;
+        margin-top: 50px;
+        width: 200px;
+        padding: 0 10px;
+        margin: 0 40px;
+        margin-top: 100px;
+
+
+        span{
+            display: block;
+            margin-top: 10px;
+
+            text-align: center;
+        }
+
+    }
+
+    .trad2{
+        @extend .trad1;
+    }
+
+    .trad3{
+        @extend .trad1;
+    }
+
+}
+
+.coniglio{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}

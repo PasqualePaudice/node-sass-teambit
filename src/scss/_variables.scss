@@ -1,2 +1,15 @@
-$width_containers: 70%;
+$width_containers: 75%;
 $paddingSopraSotto: 20px;
+
+@mixin button($paddingDS) {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 $paddingDS;
+    border-radius: 8px;
+}
+
+.clearfix{
+    content: '';
+    clear: both;
+
+}

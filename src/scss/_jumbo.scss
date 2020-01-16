@@ -1,38 +1,97 @@
 .jumbo{
+
     height: calc(100vh - 76px);
     width: $width_containers;
     margin: 0 auto;
-        padding-top:80px;
+    padding-top:156px;
+    margin-bottom: 76px;
 }
 
 .s-jumbo{
     height: 100%;
     float: left;
-    width: 46%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 
     h1{
-        font-size: 50px ;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
+        font-size: 54px ;
+        line-height: 1.4;
+        margin-bottom: 10px;
         font-weight: 600;
         line-height: 1.4;
+        color: #58402c;
+
     }
 
     h5{
-        font-size: 18px;
+        font-size: 20px;
         line-height: 2;
         font-weight: 300;
+        margin-bottom: 40px;
+        color: #58402c;
     }
 
 
 }
 
 .d-jumbo{
+    width: 50%;
     height: 100%;
     float: left;
 
+    img{
+        width: 100%;
+    }
+
+
+}
+
+.buttons{
+
+    .in-google{
+        @include button(20px);
+        background-color: #30488f;
+        color: white;
+        border: none;
+
+        &:hover{
+            background-color: #233569;
+        }
+
+    }
+
+    .in-slack{
+        @extend .in-google;
+    }
+
+    .s{
+        @extend .g;
+        width: 20px;
+        top:5px;
+    }
+
+    span{
+        height: 35px;
+        width: 38px;
+        line-height: 35px;
+        font-size: .8125rem;
+        color: #bdb5af;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+
+}
+.address{
+    margin-top:20px;
+    text-decoration: none;
+    color: #58402c;
+    font-size: .875rem;
+
+     &:hover{
+         color: #30488f;
+     }
 
 
 }
